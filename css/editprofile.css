@@ -1,0 +1,51 @@
+body {
+    background: rgba(132, 148, 138, 0.863);
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: rgba(132, 148, 138, 0.863);
+  }
+  
+  .profile-button {
+    background: rgba(132, 148, 138, 0.863);
+    box-shadow: none;
+    border: none;
+  }
+  
+  .profile-button:hover {
+    background: rgba(40, 54, 45, 0.863);
+  }
+  
+  .profile-button:focus {
+    background: rgba(40, 54, 45, 0.863);
+    box-shadow: none;
+  }
+  
+  .profile-button:active {
+    background: rgba(40, 54, 45, 0.863);
+    box-shadow: none;
+  }
+  
+  .back a h6{
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+    font-family: fantasy;
+  }
+
+  .back:hover,.back a:hover,.back a h6:hover {
+    color: rgba(81, 163, 110, 0.863);
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+
+  .textEdit{
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+  }
+
+  .row input:hover{
+    border-color: black;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }

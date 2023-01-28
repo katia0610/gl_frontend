@@ -1,0 +1,57 @@
+body{
+    font-family: Montserrat, sans-serif;
+    background: #b3c0ac;
+  }
+  .container3{
+    user-select: none;
+    margin: 70px auto;
+    background: #f7fff8;
+    color: rgb(65, 64, 56);
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 20px 30px -10px rgba(0,0,0,.75);
+  }
+ 
+  .profile{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 50px 0 20px 0px;
+    border: 5px solid rgba(132, 148, 138, 0.863);
+  }
+  .profile-name{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .about{
+    margin-top: 20px;
+    line-height: 21px;
+  }
+
+  .about span{
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 20px;
+  }
+  
+  .container3 li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .container3 li i{
+    color:  rgba(132, 148, 138, 0.863);
+  }
+  .container3 li i:hover{
+   
+    color: rgb(49, 42, 40);
+    font-size: 40px;
+  }
